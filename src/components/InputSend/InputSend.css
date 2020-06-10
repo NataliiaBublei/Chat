@@ -1,0 +1,37 @@
+.InputSend {
+    height: 20%;
+    position: relative;
+    border-top: 1px solid #e3e3e3;
+}
+
+.InputSend form {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.InputSend form .input {
+    background: #fafafa;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: solid 1px #e3e3e3;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.InputSend form .icon {
+    position: absolute;
+    right: 15px;
+    top: 8px;
+
+    outline: none;
+    width: 32px;
+    height: 30px;
+    background: #fafafa url(../../assets/send.png) no-repeat right 5px center;
+    background-size: 20px;
+    border: none;
+}
+

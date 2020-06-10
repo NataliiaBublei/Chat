@@ -1,0 +1,46 @@
+.MessageItem {
+    display: flex;
+    padding: 10px 0;
+}
+
+.MessageItem.right {
+    justify-content: flex-end;
+}
+
+.MessageItem__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.MessageItem__info.left {
+    align-items: flex-start;
+}
+
+.MessageItem__info.right {
+    align-items: flex-end;
+}
+
+.MessageItem__info_text {
+    border-radius: 30px;
+    padding: 10px;
+    max-width: 350px;
+    word-break: break-word;
+}
+
+.MessageItem__info_text.blue {
+    background: #3a3c51;
+    color: #fff;
+}
+
+.MessageItem__info_text.grey {
+    background: #e0e0e0;
+    color: #6e6e6e;
+}
+
+.MessageItem__info_time {
+    padding-left: 10px;
+}
+
+.MessageItem__info_time small {
+    font-size: 10px;
+}

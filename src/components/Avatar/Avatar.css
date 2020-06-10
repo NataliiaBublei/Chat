@@ -1,0 +1,33 @@
+.Avatar{
+    position: relative;
+    margin: 0 20px 0 10px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.check {
+    display: inline-block;
+    width: 3px;
+    height: 6px;
+    border: solid green;
+    border-width: 0 1px 1px 0;
+    position: absolute;
+    bottom: 5px;
+    left: 35px;
+    transform: rotate( 45deg);
+}
+
+.circle {
+    position: absolute;
+    bottom: 1px;
+    left: 29px;
+    width: 11px;
+    height: 10px;
+    border: solid 1px green;
+    border-radius: 50%;
+}

@@ -1,0 +1,43 @@
+.Sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border-right: 1px solid #e3e3e3;
+}
+
+.Sidebar__header {
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.Sidebar__dialogs {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: #fff;
+}
+
+.Sidebar__dialogs:hover {
+    overflow: auto;
+}
+
+.Sidebar__dialogs_title {
+    background: #fff;
+    color: #99c6cc;
+    padding: 20px 10px;
+    margin: 0;
+    font-size: 24px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.Sidebar__dialogs_title:hover {
+    color: #89b2b7;
+}
+
+.Sidebar__dialogs_title:active {
+    color: #7a9ea3;
+}
+

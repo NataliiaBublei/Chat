@@ -1,0 +1,9 @@
+.CurrentDialog {
+    height: 70%;
+    background: #fafafa;
+    overflow: auto;
+}
+
+.CurrentDialog ul {
+    padding: 0 10px 0 0;
+}
